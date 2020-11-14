@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: lightgray;
+    font-family: 'PT Sans', sans-serif;
+}
+#header{
+    position: absolute;
+    margin: 0 auto;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+
+}
+#titlep{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    width: 500px;
+    height: 450px;
+    flex-flow: column;
+    top: 100px;
+    left: 40%;
+    
+}
+#first{
+    padding-left: 10px; 
+    float: left;
+}
+#numbers{
+    float: right;
+    padding-right: 10px;
+    color: gray
+}
+img{
+    style= height: 100%; width: 100%; object-fit: contain
+}
+#secondp{
+    position: absolute;
+    background-color: white;
+    display: flex;
+    width: 500px;
+    height: 450px;
+    flex-flow: column;
+    top: 600px;
+    left: 40%;
+}
+#pa{
+    margin: 10px;
+}
